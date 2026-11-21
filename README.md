@@ -144,9 +144,15 @@ git clone URL_DO_SEU_REPOSITORIO
 cd NOME_DO_REPOSITORIO
 ```
 
-### 3. Execute o notebook
+### 3. Instale as dependências
 
-Abra o arquivo `Previsao_Intencao_Compra.ipynb` no Google Colab ou em um ambiente Jupyter Notebook.
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Execute o notebook
+
+Abra o arquivo Previsao_Intencao_Compra.ipynb no Google Colab ou em um ambiente Jupyter Notebook.
 
 O conjunto de dados é carregado diretamente do UCI Machine Learning Repository por meio da biblioteca `ucimlrepo`, sendo necessário acesso à internet para essa etapa.
 
@@ -157,6 +163,7 @@ Previsao-Intencao-Compra/
 │
 ├── Previsao_Intencao_Compra.ipynb
 ├── README.md
+└── requirements.txt
 ```
 
 ## Autor
